@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+@import './reset.scss';
+
+/* This CSS will print because %message-shared is extended. */
+%wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+    @extend %wrapper;
+}
+
+@import './header.scss';
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+
+}
+
+@import './main.scss';
+@import './sidebar.scss';
+@import './sidebar_footer.scss';

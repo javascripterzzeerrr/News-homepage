@@ -1,0 +1,50 @@
+.main__content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+
+    .main__content_banner {
+        img {
+            display: block;
+            width: auto;
+            height: auto;
+            max-width: 100%;
+        }
+    }
+
+    .main__content__description {
+        margin-top: 40px;
+        display: flex;
+
+        .main__content__description__title {
+            min-width: 50%;
+            line-height: 3.5em;
+            h1 {
+                font-size: 50px;
+                font-weight: bold;
+            }
+        }
+
+        .main__content__description__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            max-width: 50%;
+            p {
+                line-height: 1.5em;
+                font-size: 14px;
+                opacity: .8;
+            }
+
+            .btn {
+                width: 180px;
+                height: 50px;
+                background-color: rgb(6, 2, 26);
+                color: #fff;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+/* This CSS will print because %message-shared is extended. */
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  margin-top: 60px;
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+.header__content .header__content__menu .list_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+.header__content .header__content__menu .list_items li {
+  cursor: pointer;
+}
+.header__content .header__content__menu .list_items li:hover {
+  color: rgb(199, 101, 21);
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 30px;
+}
+.main__content .main__content_banner img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.main__content .main__content__description {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main__content .main__content__description .main__content__description__title {
+  min-width: 50%;
+  line-height: 3.5em;
+}
+.main__content .main__content__description .main__content__description__title h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.main__content .main__content__description .main__content__description__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 50%;
+}
+.main__content .main__content__description .main__content__description__info p {
+  line-height: 1.5em;
+  font-size: 14px;
+  opacity: 0.8;
+}
+.main__content .main__content__description .main__content__description__info .btn {
+  width: 180px;
+  height: 50px;
+  background-color: rgb(6, 2, 26);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.sidebar__content {
+  min-width: 320px;
+  max-height: 490px;
+  background-color: rgb(15, 4, 43);
+  padding: 35px 25px;
+}
+.sidebar__content h2 {
+  font-size: 35px;
+  color: rgb(212, 156, 33);
+  font-weight: bold;
+}
+.sidebar__content .sidebar__content__sections {
+  margin-top: 15px;
+  color: #fff;
+}
+.sidebar__content .sidebar__content__sections section {
+  margin: 30px 0;
+}
+.sidebar__content .sidebar__content__sections section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.sidebar__content .sidebar__content__sections section h3:hover {
+  color: rgb(212, 156, 33);
+}
+.sidebar__content .sidebar__content__sections section p {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: lighter;
+  opacity: 0.5;
+  line-height: 1.5em;
+}
+.sidebar__content .sidebar__content__sections section hr {
+  margin: 20px 0;
+  border: 1px solid rgb(255, 255, 255);
+  opacity: 0.1;
+}
+.sidebar__content .sidebar__content__sections section:last-child {
+  margin-bottom: 0;
+}
+.sidebar__content .sidebar__content__sections section:last-child hr {
+  display: none;
+}
+
+.siderbar_footer {
+  margin-top: 90px;
+}
+
+.sidebar__footer_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+}
+
+.item__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+.item__content .preview img {
+  max-width: 100px;
+  max-height: 120px;
+}
+.item__content .desc_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+.item__content .desc_content .number {
+  font-size: 30px;
+  font-weight: bold;
+  opacity: 0.3;
+}
+.item__content .desc_content .title {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.item__content .desc_content .title:hover {
+  color: rgb(170, 85, 15);
+}
+.item__content .desc_content .desc {
+  line-height: 1.5em;
+  opacity: 0.8;
+}

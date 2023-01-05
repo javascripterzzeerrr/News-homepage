@@ -1,0 +1,25 @@
+.header {
+    margin-top: 60px;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+    .header__content__menu {
+
+        .list_items {
+            display: flex;
+            gap: 40px;
+            li {
+                cursor: pointer;
+                &:hover {
+                    color: rgb(199, 101, 21);
+                }
+            }
+        }
+
+    }
+}
